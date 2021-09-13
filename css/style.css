@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    padding:20px;
+}
+
+#title{
+    padding:20px 0;
+}
+
+#subtitle{
+    color:grey;
+}
+
+#description{
+    font-size:13px;
+}
+
+#author{
+    color:#0095B6;
+}
+
+#date{
+    font-size:15px;
+}
+
+.paragraph{
+    padding:20px 0px;
+    font-weight: 500;
+}
+
+h5 {
+    z-index: 0;
+    color: #8b1313;
+    font-size: 140%;
+    font-weight:bold;
+  }
+
+  .graph{
+      z-index:-1;
+  }
