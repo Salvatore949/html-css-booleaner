@@ -3,9 +3,21 @@
     margin: 0;
 }
 
+header{
+    background-image:url("img\pattern.png");
+    height:100px;
+    width: 100%;
+    margin: auto;
+}
+
 body{
     padding:20px;
 }
+
+#description{
+    font-size:13px;
+}
+
 
 #title{
     padding:20px 0;
@@ -13,10 +25,6 @@ body{
 
 #subtitle{
     color:grey;
-}
-
-#description{
-    font-size:13px;
 }
 
 #author{
@@ -28,17 +36,47 @@ body{
 }
 
 .paragraph{
-    padding:20px 0px;
+    padding:15px 0px;
     font-weight: 500;
 }
 
 h5 {
-    z-index: 0;
-    color: #8b1313;
+    color: #000000;
     font-size: 140%;
     font-weight:bold;
+    padding: 10px 0;
   }
 
-  .graph{
-      z-index:-1;
+
+  #logo{
+      width: 30%;
+      height: 20%;
+      margin:auto;
   }
+
+.giallo{
+    background-color:yellow;
+}
+
+table{
+    width:70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#first-line{
+    background-color: #1aaae6;
+}
+#second-line{
+    background-color: #b2e6f2;
+    height: 60px;
+}
+#third-line{
+    background-color: #ffffff;
+    height: 60px;
+}
+#fourth-line{
+    background-color: #b2e6f2;
+    height: 60px;
+}
