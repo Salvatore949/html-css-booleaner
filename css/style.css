@@ -3,21 +3,9 @@
     margin: 0;
 }
 
-header{
-    background-image:url("img\pattern.png");
-    height:100px;
-    width: 100%;
-    margin: auto;
-}
-
 body{
     padding:20px;
 }
-
-#description{
-    font-size:13px;
-}
-
 
 #title{
     padding:20px 0;
@@ -35,24 +23,14 @@ body{
     font-size:15px;
 }
 
+#description{
+    font-size:13px;
+}
+
 .paragraph{
     padding:15px 0px;
     font-weight: 500;
 }
-
-h5 {
-    color: #000000;
-    font-size: 140%;
-    font-weight:bold;
-    padding: 10px 0;
-  }
-
-
-  #logo{
-      width: 30%;
-      height: 20%;
-      margin:auto;
-  }
 
 .giallo{
     background-color:yellow;
@@ -80,3 +58,14 @@ table{
     background-color: #b2e6f2;
     height: 60px;
 }
+
+h5 {
+    color: #000000;
+    font-size: 140%;
+    font-weight:bold;
+    padding: 10px 0;
+}
+
+
+
+
